@@ -6,7 +6,7 @@ export default function UserPage({ users }) {
     <>
       {users?.map((user) => {
         return (
-          <div>
+          <div key={`${user}-b`}>
             <Link href={`/user/${user.id}`}>{user.name}</Link>
           </div>
         )

@@ -17,6 +17,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Link href={"/user"}>users</Link>
+        <Link href={"/h-user"}>users (React Query)</Link>
       </main>
     </>
   )
